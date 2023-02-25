@@ -39,4 +39,8 @@
     <script src="javascript/pass-show-hide.js"></script>
     <script src="javascript/signup.js"></script>
 </body> 
+<script>
+    const socket = new WebSocket('ws://localhost:8080')
+    console.log(socket);
+</script>
 </html>
